@@ -1,0 +1,1560 @@
+{
+ "products": {
+  "nouvelle-kera-sublime-hero-cream": {
+   "name": "Kera Sublime Smoothing Hero Cream",
+   "short": "Keratin-based semi-permanent smoothing cream",
+   "description": "The secret to silky hair. This keratin-based semi-permanent smoothing cream leaves hair smooth, shiny and easy to manage. It reduces frizz and static, and the result lasts through several washes. Designed for professional salon treatments.",
+   "features": [
+    "Reduces frizz and static",
+    "Makes hair smoother and more manageable",
+    "Creates a silky-soft, shiny look",
+    "Semi-permanent straightening effect — up to 50% straightening",
+    "Suitable for different hair types"
+   ],
+   "usage": "Wash hair with a deep-cleansing shampoo and dry to 80%. Apply the cream evenly to the strands and leave for 20–30 minutes, then blow-dry and pass a flat iron over each section 8–10 times. For professional use.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml (Professional size)"
+    },
+    {
+     "label": "Active ingredients",
+     "value": "Hydrolyzed keratin, Amino Sublime Complex, grape seed oil, glycolic acid"
+    },
+    {
+     "label": "Free from",
+     "value": "Formaldehyde, Paraben, Mineral oil, Paraffin"
+    }
+   ]
+  },
+  "nouvelle-kera-sublime-shampoo": {
+   "name": "Kera Sublime Straightening Care Shampoo",
+   "short": "Shampoo for keratin-treated hair",
+   "description": "A special shampoo to maintain results after a keratin treatment. It deeply moisturizes and nourishes hair, and restores and strengthens the hair fibers with keratin.",
+   "features": [
+    "Deeply moisturizes and nourishes hair",
+    "Restores hair fibers with keratin",
+    "Softens hair and gives a smooth look",
+    "Suitable for all hair types"
+   ],
+   "usage": "Apply to wet hair, lather and rinse. For best results, use together with the Kera Sublime mask.",
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    }
+   ]
+  },
+  "nouvelle-kera-sublime-mask": {
+   "name": "Kera Sublime Straightening Care Mask",
+   "short": "Care mask for keratin-treated hair",
+   "description": "A keratin mask that deeply cares for and nourishes hair. It softens and smooths hair and adds shine.",
+   "features": [
+    "Deeply cares for and nourishes hair",
+    "Restores and strengthens hair with keratin",
+    "Softens, smooths and adds shine",
+    "Suitable for all hair types"
+   ],
+   "usage": "After shampooing, apply to damp hair, leave for 3–5 minutes and rinse.",
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    }
+   ]
+  },
+  "nouvelle-kera-sublime-oil": {
+   "name": "Kera Sublime Perfection Care Oil",
+   "short": "Care oil for keratin-treated hair",
+   "description": "A lightweight care oil that gives hair shine and vitality. It reduces static and frizz without weighing hair down.",
+   "features": [
+    "Gives hair shine and vitality",
+    "Moisturizes and softens hair",
+    "Reduces static and frizz",
+    "Suitable for all hair types"
+   ],
+   "usage": "Spread a few drops between your palms and apply to the hair ends. Do not rinse.",
+   "volume": "100 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "100 ml"
+    }
+   ]
+  },
+  "nouvelle-kera-sublime-set": {
+   "name": "Kera Sublime Care Set",
+   "short": "Shampoo 300 ml + Mask 300 ml + Oil 100 ml",
+   "description": "The three core products of the Kera Sublime line in one set: keratin shampoo, care mask and perfection oil. It prolongs the results of a keratin treatment and restores hair from within.",
+   "features": [
+    "Repairs internal gaps in the hair fiber",
+    "Aligns the fibers",
+    "Strengthens hair",
+    "15% savings when bought as a set"
+   ],
+   "volume": "Shampoo + Mask + Oil",
+   "specs": [
+    {
+     "label": "Contents",
+     "value": "Shampoo 300 ml, Mask 300 ml, Oil 100 ml"
+    }
+   ]
+  },
+  "nouvelle-curl-me-up-shampoo": {
+   "name": "Curl Me Up Curl Evolve Shampoo",
+   "short": "Shampoo for curly hair",
+   "description": "A moisturizing, nourishing shampoo for curly and wavy hair. It protects curls from static and makes them more defined and springy.",
+   "features": [
+    "Deeply moisturizes hair",
+    "Defines and shapes curls",
+    "Vegan formula with fruit and flower extracts",
+    "Makes combing easy"
+   ],
+   "usage": "Apply to wet hair, massage gently and rinse. Follow with the Curl Me Up mask.",
+   "volume": "250 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "250 ml"
+    }
+   ]
+  },
+  "nouvelle-curl-me-up-mask": {
+   "name": "Curl Me Up Curl Evolve Mask",
+   "short": "Mask for curly hair",
+   "description": "An intensive mask that nourishes and moisturizes curls. It prevents dryness and gives curls softness and shine.",
+   "features": [
+    "Nourishes curls",
+    "Prevents dryness",
+    "Reduces static",
+    "Vegan formula"
+   ],
+   "usage": "After shampooing, distribute through the strands, leave for 5 minutes and rinse.",
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    }
+   ]
+  },
+  "nouvelle-curl-me-up-spray": {
+   "name": "Curl Me Up Curl Emphasizer Spray",
+   "short": "Curl-reviving spray",
+   "description": "A leave-in spray that revives curls, moisturizes them and keeps their shape. Springy, natural-looking curls all day.",
+   "features": [
+    "Revives curls",
+    "Adds elasticity and softness",
+    "Leave-in, no rinsing",
+    "For all curl types"
+   ],
+   "usage": "Spray onto damp or dry hair from 20–30 cm away and shape the curls with your fingers.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    }
+   ]
+  },
+  "nouvelle-curl-me-up-set": {
+   "name": "Curl Me Up Total Curl Care Set",
+   "short": "A 3-product line for curly hair",
+   "description": "The 3-product Curl Me Up line is specially formulated for the treatment and daily care of curly hair: it moisturizes, defines curls and protects hair from damaging influences.",
+   "features": [
+    "Moisturizes",
+    "Defines curls",
+    "Natural formula",
+    "Protects and makes combing easy"
+   ],
+   "volume": "Shampoo + Mask + Spray",
+   "specs": [
+    {
+     "label": "Contents",
+     "value": "Shampoo 250 ml, Mask 300 ml, Spray 150 ml"
+    }
+   ]
+  },
+  "nouvelle-color-effective-blonde": {
+   "name": "Color Effective Blonde Bleaching Powder",
+   "short": "Root-ready blue bleaching powder — up to 9 levels",
+   "description": "Lightening power with care. This care-enriched professional bleaching powder lightens hair up to 9 levels without damaging it. Its special formula is suitable for root application, and blue toning technology neutralizes yellow tones.",
+   "features": [
+    "Lightens up to 9 levels without damaging hair",
+    "Suitable for root application",
+    "Prevents hair from drying out",
+    "Blue toning technology"
+   ],
+   "usage": "Mixing ratio (per package): 1 part bleaching powder : 8 parts developer. Prepare the mixture and apply immediately.",
+   "volume": "500 g",
+   "specs": [
+    {
+     "label": "Weight",
+     "value": "500 g"
+    },
+    {
+     "label": "Lightening power",
+     "value": "Up to 9 levels"
+    },
+    {
+     "label": "Color",
+     "value": "Blue (anti-yellow)"
+    }
+   ]
+  },
+  "nouvelle-hair-color": {
+   "name": "Nouvelle Hair Color",
+   "short": "Made in Italy — 121 shades, low ammonia",
+   "description": "A professional cream hair color made in Italy. Its low-ammonia formula with plant extracts and protective agents cares for hair during coloring, while vitamin C keeps the color vibrant and glossy for longer. With 121 shades you can achieve any tone, with full grey coverage.",
+   "features": [
+    "Low-ammonia formula",
+    "Plant extracts and protective agents",
+    "Contains vitamin C",
+    "121 shades to choose from",
+    "Long-lasting, glossy results",
+    "Mixes 1:1 with Nouvelle developer"
+   ],
+   "usage": "1 part color : 1 part Nouvelle developer. Apply to dry hair and leave for 30–35 minutes.",
+   "note": "Buy 12 colors and get 1 developer free",
+   "volume": "100 ml",
+   "variantLabel": "Shade",
+   "variants": {
+    "1-0": "1.0 Black",
+    "3-0": "3.0 Dark Chestnut",
+    "4-0": "4.0 Chestnut",
+    "5-0": "5.0 Light Chestnut",
+    "6-0": "6.0 Dark Blonde",
+    "7-0": "7.0 Blonde",
+    "8-0": "8.0 Light Blonde",
+    "9-0": "9.0 Very Light Blonde",
+    "10-0": "10.0 Platinum Blonde",
+    "6-66": "6.66 Intense Red",
+    "7-44": "7.44 Copper",
+    "5-5": "5.5 Mahogany"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "100 ml"
+    },
+    {
+     "label": "Mixing ratio",
+     "value": "1:1"
+    },
+    {
+     "label": "Color range",
+     "value": "121 shades"
+    },
+    {
+     "label": "Made in",
+     "value": "Italy"
+    }
+   ]
+  },
+  "nouvelle-oxidant": {
+   "name": "Nouvelle Color Effective Developer",
+   "short": "Cream developer — 1:1 with color",
+   "description": "A stabilized cream developer for Nouvelle Hair Color. Even color development and hair protection.",
+   "features": [
+    "Cream texture — no dripping",
+    "Even color results",
+    "Mixed 1:1 with color"
+   ],
+   "volume": "100 ml",
+   "variantLabel": "Strength",
+   "variants": {
+    "3": "3% · 10 vol",
+    "6": "6% · 20 vol",
+    "9": "9% · 30 vol",
+    "12": "12% · 40 vol"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "100 ml"
+    }
+   ]
+  },
+  "naspura-oxidant-cream-5000": {
+   "name": "Naspura Oxidant Cream",
+   "short": "Oxidant cream with protein and argan oil, 5 L",
+   "description": "An oxidant cream enriched with protein and argan oil. An economical 5-liter canister for salons. Protects hair during coloring and lightening treatments.",
+   "features": [
+    "Protein and argan oil",
+    "5 L size for salons",
+    "Stable cream texture"
+   ],
+   "volume": "5000 ml",
+   "variantLabel": "Strength",
+   "variants": {
+    "10": "10 vol · 3%",
+    "20": "20 vol · 6%",
+    "30": "30 vol · 9%",
+    "40": "40 vol · 12%"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "5000 ml"
+    }
+   ]
+  },
+  "redist-biotin-set": {
+   "name": "Redist Biotin Hair Care Set",
+   "short": "3-step biotin routine — sulfate-free, salt-free",
+   "description": "A 3-step biotin routine for healthy, strong and shiny hair. A sulfate-free, salt-free formula for flat, static-prone hair: it cleanses, restores, moisturizes and adds shine.",
+   "features": [
+    "1. Biotin volumizing shampoo",
+    "2. Biotin volumizing hair mask",
+    "3. Biotin hair conditioner",
+    "Sulfate-free and salt-free"
+   ],
+   "volume": "Shampoo + Mask + Conditioner",
+   "specs": [
+    {
+     "label": "Contents",
+     "value": "Shampoo, mask, spray conditioner"
+    }
+   ]
+  },
+  "redist-charming-silver-shampoo": {
+   "name": "Redist Charming Silver Shampoo",
+   "short": "Anti-yellow shampoo for blonde and white hair",
+   "description": "A purple shampoo that neutralizes yellow tones in blonde, white and color-treated hair. 95% of users noted their blonde hair looked brighter.",
+   "features": [
+    "95% — blonde hair looks brighter",
+    "91% — reduction in yellowish tones",
+    "87% — hair looks smoother and shinier",
+    "Professional 1 L size"
+   ],
+   "usage": "Apply to wet hair, leave for 2–5 minutes and rinse. Use 1–2 times a week.",
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    }
+   ]
+  },
+  "redist-garlic-hair-mask": {
+   "name": "Redist Garlic Hair Care Mask",
+   "short": "Garlic mask against hair loss",
+   "description": "Time to say goodbye to hair loss! Redist garlic mask strengthens the hair roots and restores shine.",
+   "features": [
+    "Reduces hair loss",
+    "Strengthens hair roots",
+    "Restores shine",
+    "Odorless formula"
+   ],
+   "volume": "500 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "500 ml"
+    }
+   ]
+  },
+  "redist-keratin-complex-duo": {
+   "name": "Redist Keratin Complex Duo",
+   "short": "The dream team duo — keratin shampoo and mask",
+   "description": "Perfect harmony for your hair! The keratin complex shampoo and mask deeply nourish and restore hair, giving it a shiny, vibrant look.",
+   "features": [
+    "Nourishes and restores hair",
+    "Shiny, vibrant look",
+    "Deep care with keratin complex"
+   ],
+   "volume": "Shampoo + Mask",
+   "specs": [
+    {
+     "label": "Contents",
+     "value": "Shampoo + hair mask"
+    }
+   ]
+  },
+  "redist-12in1-expert-mask": {
+   "name": "Redist 12 in 1 Expert Mask",
+   "short": "12-action mask for split ends",
+   "description": "Struggling with split ends? This product will change everything! The 12-action formula makes hair shinier and stronger and nourishes it deeply.",
+   "features": [
+    "Shinier hair",
+    "Stronger hair",
+    "Deep nourishment",
+    "Professional care"
+   ],
+   "volume": "500 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "500 ml"
+    }
+   ]
+  },
+  "redist-expert-hair-care-shampoo": {
+   "name": "Redist Expert Hair Care Shampoo",
+   "short": "Stronger, healthier, shinier",
+   "description": "Professional care for your hair. A nourishing shampoo for daily use that gently cleanses hair and gives it strength.",
+   "features": [
+    "Gentle cleansing",
+    "Strengthens hair",
+    "Adds shine"
+   ],
+   "volume": "1000 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    }
+   ]
+  },
+  "redist-argan-duo": {
+   "name": "Redist Argan Shampoo + Conditioner",
+   "short": "Moisturizing duo with argan oil",
+   "description": "Shampoo and spray conditioner enriched with argan oil. Softness and silky shine for dry, tired hair.",
+   "features": [
+    "Moisturizing with argan oil",
+    "Easy combing",
+    "Silky shine"
+   ],
+   "volume": "1000 ml + 400 ml",
+   "specs": [
+    {
+     "label": "Contents",
+     "value": "Shampoo 1000 ml + Conditioner 400 ml"
+    }
+   ]
+  },
+  "redist-full-force-hair-spray": {
+   "name": "Redist Full Force Hair Spray",
+   "short": "No secrets, just perfect hair",
+   "description": "A hair spray with strong, long-lasting hold. It keeps shape and volume all day and gives hair a natural, flexible look.",
+   "features": [
+    "Long-lasting hold",
+    "Natural, flexible look",
+    "Keeps shape and volume all day"
+   ],
+   "volume": "400 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    }
+   ]
+  },
+  "redist-make-up-fixing-spray": {
+   "name": "Redist Make Up Fixing Spray",
+   "short": "Professional makeup setting spray",
+   "description": "A professional setting spray that keeps makeup fresh all day. A light mist that leaves no sticky feel.",
+   "features": [
+    "Keeps makeup in place for hours",
+    "Light, fine-mist spray",
+    "For all skin types"
+   ],
+   "volume": "300 ml",
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "300 ml"
+    }
+   ]
+  },
+  "redone-wax-red": {
+   "name": "RedOne Red Aqua Hair Wax",
+   "short": "Full Force — bold style everyday",
+   "description": "RedOne Red Aqua Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "00743"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-blue": {
+   "name": "RedOne Blue Aqua Hair Wax",
+   "short": "Full Force — strong style everyday",
+   "description": "RedOne Blue Aqua Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "00742"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-quiksilver": {
+   "name": "RedOne Quiksilver Aqua Hair Wax",
+   "short": "Full Force — strong style everyday",
+   "description": "RedOne Quiksilver Aqua Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "00726"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-black": {
+   "name": "RedOne Black Aqua Hair Gel Wax",
+   "short": "Full Force — gel wax",
+   "description": "RedOne Black Aqua Hair Gel Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01624"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-orange": {
+   "name": "RedOne Orange Aqua Hair Gel Wax",
+   "short": "Full Force — fresh style everyday",
+   "description": "RedOne Orange Aqua Hair Gel Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "02419"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-violetta": {
+   "name": "RedOne Violetta Aqua Hair Gel Wax",
+   "short": "Full Force — creative style everyday",
+   "description": "RedOne Violetta Aqua Hair Gel Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01625"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-white": {
+   "name": "RedOne Bright White Aqua Hair Wax",
+   "short": "Full Force — clean style everyday",
+   "description": "RedOne Bright White Aqua Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01614"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-cobra": {
+   "name": "RedOne Cobra Aqua Hair Wax",
+   "short": "Full Force — maximum control",
+   "description": "RedOne Cobra Aqua Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "02328"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-olive": {
+   "name": "RedOne Olive Aqua Hair Wax",
+   "short": "Full Force — natural look, strong style",
+   "description": "RedOne Olive Aqua Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "02327"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-green": {
+   "name": "RedOne Green Matte Hair Wax",
+   "short": "Matte — matte look, strong hold",
+   "description": "RedOne Green Matte Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "00725"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-argan": {
+   "name": "RedOne Argan Matte Hair Wax",
+   "short": "Matte — natural look, strong style",
+   "description": "RedOne Argan Matte Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01855"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-keratin": {
+   "name": "RedOne Keratin Matte Hair Wax",
+   "short": "Matte — natural look, strong style",
+   "description": "RedOne Keratin Matte Hair Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "Long-lasting shape",
+    "Easy to apply and wash out",
+    "Maximum control formula"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01854"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-wax-fiber": {
+   "name": "RedOne Creative Fiber Wax",
+   "short": "Strong & matte — for creative styles",
+   "description": "RedOne Creative Fiber Wax is a wax from the RedOne Full Force series that delivers maximum control. It gives hair a lasting shape all day without weighing it down or leaving residue. Ideal for barbers and comfortable for everyday use.",
+   "features": [
+    "Strong hold",
+    "For creative styles",
+    "Matte effect and natural look",
+    "Fibrous texture"
+   ],
+   "usage": "Warm a small amount of wax between your fingers, apply to dry or slightly damp hair and style as desired. Washes out easily with water.",
+   "volume": "150 ml",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01663"
+    },
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    },
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-spider-hair-wax": {
+   "name": "RedOne Spider Hair Wax",
+   "short": "Spiderweb texture — maximum control",
+   "description": "Spider wax's fibrous, web-like stretchy texture gives hair strong, flexible hold. All-day control with a shiny, vibrant look.",
+   "features": [
+    "Strong hold",
+    "Long-lasting control",
+    "Shiny look",
+    "Fibrous spider texture"
+   ],
+   "volume": "100 ml",
+   "variantLabel": "Series",
+   "variants": {
+    "passionate": "Passionate (red)",
+    "show-off": "Show-Off (blue)"
+   },
+   "specs": [
+    {
+     "label": "Hold",
+     "value": "Maximum"
+    }
+   ]
+  },
+  "redone-matte-hair-wax": {
+   "name": "RedOne Matte Hair Wax",
+   "short": "Matte look — your style, our control",
+   "description": "A matte-finish wax with strong hold. Shine-free, natural texture and a shape that lasts all day.",
+   "features": [
+    "Strong hold",
+    "Long-lasting control",
+    "Matte look"
+   ],
+   "volume": "100 ml",
+   "variantLabel": "Color",
+   "variants": {
+    "white": "White",
+    "black": "Black"
+   }
+  },
+  "redone-after-shave-cream-cologne": {
+   "name": "RedOne After Shave Cream Cologne",
+   "short": "After-shave cream cologne",
+   "description": "A cream cologne that soothes and moisturizes the skin after shaving and leaves a long-lasting fresh scent. 400 ml with a pump dispenser for barbershops.",
+   "features": [
+    "Soothes the skin",
+    "Reduces irritation",
+    "Long-lasting scent",
+    "Pump dispenser packaging"
+   ],
+   "volume": "400 ml",
+   "variantLabel": "Scent",
+   "variants": {
+    "gold": "Gold",
+    "silver": "Silver",
+    "revitalizing": "Revitalizing",
+    "sport": "Sport",
+    "extreme": "Extreme",
+    "fresh": "Fresh"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    }
+   ]
+  },
+  "redone-shaving-gel": {
+   "name": "RedOne Shaving Gel",
+   "short": "Transparent shaving gel — precise contours",
+   "description": "A shaving gel whose transparent formula lets you see contours and the beard line precisely. It moisturizes the skin and lets the razor glide smoothly.",
+   "features": [
+    "Transparent — precise contours",
+    "Moisturizing effect",
+    "Smooth glide",
+    "1 L professional size"
+   ],
+   "volume": "1000 ml",
+   "variantLabel": "Type",
+   "variants": {
+    "gold": "Gold",
+    "silver": "Silver",
+    "fruits": "Forest Fruits"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "1000 ml"
+    }
+   ]
+  },
+  "redone-natural-cologne-150": {
+   "name": "RedOne Natural Cologne Spray",
+   "short": "Barber cologne — 8 scents",
+   "description": "A classic barber cologne that refreshes and disinfects the skin after shaving. Compact 150 ml spray.",
+   "features": [
+    "Refreshes",
+    "Disinfecting effect",
+    "Compact spray",
+    "8 different scents"
+   ],
+   "volume": "150 ml",
+   "variantLabel": "Scent",
+   "variants": {
+    "lemon": "Lemon",
+    "thunderbold": "Thunderbold",
+    "old-marine": "Old Marine",
+    "amber": "Amber",
+    "silver": "Silver",
+    "gold": "Gold",
+    "volcanic": "Volcanic",
+    "undulation": "Undulation"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "150 ml"
+    }
+   ]
+  },
+  "redone-barber-cologne-400": {
+   "name": "RedOne Barber Cologne",
+   "short": "Large-size barber cologne — 6 scents",
+   "description": "A large-size cologne for barbershops. Freshness and a long-lasting pleasant scent after shaving.",
+   "features": [
+    "Large 400 ml size",
+    "Spray nozzle",
+    "Long-lasting scent"
+   ],
+   "volume": "400 ml",
+   "variantLabel": "Scent",
+   "variants": {
+    "volcanic": "Volcanic",
+    "undulation": "Undulation Purple",
+    "citrus": "Citrus",
+    "lemon": "Lemon",
+    "caribbean": "Caribbean",
+    "tabacco": "Tabacco"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    }
+   ]
+  },
+  "redone-cologne-body-splash": {
+   "name": "RedOne Cologne Body Splash",
+   "short": "Cologne spray for the body",
+   "description": "A light, refreshing body splash for body and hair. A pleasant scent all day.",
+   "features": [
+    "Light scent",
+    "For body and hair",
+    "400 ml spray"
+   ],
+   "volume": "400 ml",
+   "variantLabel": "Scent",
+   "variants": {
+    "gold": "Gold",
+    "silver": "Silver",
+    "amber": "Amber"
+   },
+   "specs": [
+    {
+     "label": "Volume",
+     "value": "400 ml"
+    }
+   ]
+  },
+  "redone-neck-strip": {
+   "name": "RedOne Neck Strip",
+   "short": "Barber neck paper — roll",
+   "description": "An elastic disposable neck strip that protects the client's neck during haircuts. Hygienic and convenient.",
+   "features": [
+    "Disposable, hygienic",
+    "Elastic and soft",
+    "Roll packaging"
+   ],
+   "specs": [
+    {
+     "label": "Code",
+     "value": "01632"
+    }
+   ]
+  },
+  "razorline-cak015tx": {
+   "name": "Razorline CAK015TX",
+   "short": "Salon thinning scissors",
+   "description": "Toothed blade for precise thinning — natural, soft transitions. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK015TX"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Thinning"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cak026": {
+   "name": "Razorline CAK026",
+   "short": "Professional cutting scissors",
+   "description": "Professional cutting in your hands. High-quality Japanese steel, precise and comfortable cutting. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK026"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-ak139": {
+   "name": "Razorline AK-139",
+   "short": "Hairdressing scissors — black",
+   "description": "For hair professionals. Black coating, precise cutting and long-lasting sharpness. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "AK-139"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cak021te": {
+   "name": "Razorline CAK021TE",
+   "short": "Thinning scissors",
+   "description": "Preserve the natural beauty of hair. Precise thinning, professional results. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK021TE"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Thinning"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cak015": {
+   "name": "Razorline CAK015",
+   "short": "Japan Steel cutting scissors",
+   "description": "Classic professional shape, Japanese steel and balanced weight. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK015"
+    },
+    {
+     "label": "Size",
+     "value": "5.5\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cak021": {
+   "name": "Razorline CAK021",
+   "short": "Hair cutting scissors",
+   "description": "Hair artists' choice. Precise cutting — more beautiful results. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK021"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cck006": {
+   "name": "Razorline CCK006",
+   "short": "Gold Edition scissors",
+   "description": "Premium model with gold coating. Elegant design and the sharpness of Japanese steel. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CCK006"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cak043": {
+   "name": "Razorline CAK043",
+   "short": "Classic cutting scissors",
+   "description": "Precision, professionalism, beauty. Makes a difference with every cut. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK043"
+    },
+    {
+     "label": "Size",
+     "value": "5.5\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-ak23l": {
+   "name": "Razorline AK23L",
+   "short": "Scissors for left-handed users",
+   "description": "Professional scissors specially made for left-handed stylists. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "AK23L"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Left-handed"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-cak015s": {
+   "name": "Razorline CAK015S",
+   "short": "Salon scissors with swivel thumb",
+   "description": "Excellent sharpness for an ideal cut, comfortable grip in the hand, stainless steel. Razorline scissors are made of stainless Japanese steel and keep their sharpness for years.",
+   "features": [
+    "High-quality Japanese steel",
+    "Precise, sharp cutting",
+    "Ergonomic design — comfortable to use",
+    "Long-lasting sharpness"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Model",
+     "value": "CAK015S"
+    },
+    {
+     "label": "Size",
+     "value": "6.0\""
+    },
+    {
+     "label": "Type",
+     "value": "Cutting"
+    },
+    {
+     "label": "Material",
+     "value": "Japan Steel, stainless steel"
+    }
+   ]
+  },
+  "razorline-ulguc": {
+   "name": "Razorline Razor",
+   "short": "Professional hair razor — boxed",
+   "description": "A professional razor for hair texturizing and contouring. Replaceable blade, comfortable grip, in a gift box.",
+   "features": [
+    "Replaceable blade",
+    "Stainless steel",
+    "Gift box"
+   ],
+   "note": "Discount valid for cash sales only"
+  },
+  "arteko-sac-utusu": {
+   "name": "Artéko Professional Hair Straightener",
+   "short": "Straightening iron with ceramic plates",
+   "description": "Straightens hair evenly without burning it, thanks to ceramic-tourmaline plates. Ideal for keratin treatments, with fast heat-up and adjustable temperature.",
+   "features": [
+    "Ceramic-tourmaline plates",
+    "Adjustable temperature (up to 230°C)",
+    "Fast heat-up",
+    "Swivel cord"
+   ],
+   "note": "Discount valid for cash sales only",
+   "specs": [
+    {
+     "label": "Temperature",
+     "value": "130–230°C"
+    },
+    {
+     "label": "Plate",
+     "value": "Ceramic-tourmaline"
+    }
+   ]
+  },
+  "arteko-brush-oval": {
+   "name": "Artéko Oval Massage Brush",
+   "short": "Massage brush, eco-friendly body",
+   "description": "A massage brush with an eco-friendly body. It combs hair gently and gives the scalp a massaging effect.",
+   "features": [
+    "Gentle combing",
+    "Scalp massage",
+    "Eco-friendly handle"
+   ],
+   "note": "Buy 8 combs and get a comb stand free",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "Oval"
+    },
+    {
+     "label": "Size",
+     "value": "Massage brush"
+    }
+   ]
+  },
+  "arteko-brush-square": {
+   "name": "Artéko Square (Paddle) Brush",
+   "short": "Paddle brush, eco-friendly body",
+   "description": "A paddle brush with an eco-friendly body. It combs hair gently and gives the scalp a massaging effect.",
+   "features": [
+    "Gentle combing",
+    "Scalp massage",
+    "Eco-friendly handle"
+   ],
+   "note": "Buy 8 combs and get a comb stand free",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "Square"
+    },
+    {
+     "label": "Size",
+     "value": "Paddle brush"
+    }
+   ]
+  },
+  "arteko-brush-25": {
+   "name": "Artéko Thermal Brush 0481JC — 25 mm",
+   "short": "Ceramic thermal brush, 25 mm",
+   "description": "A ceramic-body thermal brush (25 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+   "features": [
+    "Ceramic-ion body",
+    "Distributes heat evenly",
+    "Volume and shine",
+    "Eco-friendly handle"
+   ],
+   "note": "Buy 8 combs and get a comb stand free",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "0481JC"
+    },
+    {
+     "label": "Size",
+     "value": "25 mm"
+    }
+   ]
+  },
+  "arteko-brush-35": {
+   "name": "Artéko Thermal Brush 0482JC — 35 mm",
+   "short": "Ceramic thermal brush, 35 mm",
+   "description": "A ceramic-body thermal brush (35 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+   "features": [
+    "Ceramic-ion body",
+    "Distributes heat evenly",
+    "Volume and shine",
+    "Eco-friendly handle"
+   ],
+   "note": "Buy 8 combs and get a comb stand free",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "0482JC"
+    },
+    {
+     "label": "Size",
+     "value": "35 mm"
+    }
+   ]
+  },
+  "arteko-brush-45": {
+   "name": "Artéko Thermal Brush 0483JC — 45 mm",
+   "short": "Ceramic thermal brush, 45 mm",
+   "description": "A ceramic-body thermal brush (45 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+   "features": [
+    "Ceramic-ion body",
+    "Distributes heat evenly",
+    "Volume and shine",
+    "Eco-friendly handle"
+   ],
+   "note": "Buy 8 combs and get a comb stand free",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "0483JC"
+    },
+    {
+     "label": "Size",
+     "value": "45 mm"
+    }
+   ]
+  },
+  "arteko-brush-55": {
+   "name": "Artéko Thermal Brush 0484JC — 55 mm",
+   "short": "Ceramic thermal brush, 55 mm",
+   "description": "A ceramic-body thermal brush (55 mm). Distributes heat evenly during blow-drying and styling, adding volume and shine to hair.",
+   "features": [
+    "Ceramic-ion body",
+    "Distributes heat evenly",
+    "Volume and shine",
+    "Eco-friendly handle"
+   ],
+   "note": "Buy 8 combs and get a comb stand free",
+   "specs": [
+    {
+     "label": "Code",
+     "value": "0484JC"
+    },
+    {
+     "label": "Size",
+     "value": "55 mm"
+    }
+   ]
+  }
+ },
+ "brands": {
+  "nouvelle": {
+   "origin": "Italy",
+   "description": "Made in Italy — a professional Italian hair color and care brand. Low-ammonia Hair Color with vitamin C in 121 shades, the Kera Sublime keratin line, Curl Me Up curl care and Color Effective Blonde bleaching powder bring salon results home."
+  },
+  "redist": {
+   "origin": "Turkey",
+   "description": "Professional hair care ranges with biotin, keratin, argan and garlic. Formulas against hair loss, for volume and to neutralize yellow tones — salon quality for everyday use."
+  },
+  "redone": {
+   "origin": "US licensed",
+   "description": "The wax brand barbers choose most. Full Force Aqua waxes, the Spider and Matte ranges, after-shave creams, shaving gels and barber colognes — strong hold, easy wash-out."
+  },
+  "razorline": {
+   "origin": "Japan Steel",
+   "description": "Professional hair scissors made from Japanese steel. Stainless steel, ergonomic design, long-lasting sharpness. Models for cutting, thinning and left-handed users."
+  },
+  "naspura": {
+   "origin": "Professional line",
+   "description": "Oxidant creams enriched with protein and argan oil. Economical 5-liter packaging for salons."
+  },
+  "arteko": {
+   "origin": "Professional tools",
+   "description": "Ceramic thermal brushes, massage combs and professional hair straighteners. Reliable tools for blow-drying and styling."
+  }
+ },
+ "categories": {
+  "sac-boyasi": {
+   "name": "Hair Color & Developer",
+   "short": "Colors, developers, bleaching powder"
+  },
+  "sac-baximi": {
+   "name": "Hair Care",
+   "short": "Keratin, curl care, masks"
+  },
+  "styling": {
+   "name": "Wax & Styling",
+   "short": "Aqua, matte and spider waxes, sprays"
+  },
+  "berber": {
+   "name": "Barber & Shaving",
+   "short": "Cologne, after shave, shaving gel"
+  },
+  "aletler": {
+   "name": "Professional tools",
+   "short": "Scissors, razor, straightener, brushes"
+  }
+ },
+ "faq": [
+  {
+   "q": "How can I place an order?",
+   "a": "Add the products you like to your cart and click the “Order via WhatsApp” button — your list will be sent to us as a ready-made message. You can also place an order by calling 055 426 24 39."
+  },
+  {
+   "q": "Are the products original?",
+   "a": "Yes. Nouvelle, Redist, RedOne and Razorline products come from official suppliers, and each has a serial number and production date. We do not sell counterfeit or expired products."
+  },
+  {
+   "q": "How does delivery work and how long does it take?",
+   "a": "Orders within Baku are usually delivered the same day or the next day. Delivery in Baku is free for orders over 50 ₼; otherwise it costs 3 ₼. We ship to the regions by post or cargo within 2–4 business days."
+  },
+  {
+   "q": "What payment methods are available?",
+   "a": "We accept cash (on delivery), bank card and bank transfer. Note: discounts on scissors, razors and straighteners apply to cash payments only."
+  },
+  {
+   "q": "How long are the discounts valid?",
+   "a": "Current promotions run until the end of the month or while stocks last. Razorline scissors are 40% off, RedOne products 20% off and the Artéko straightener 33% off. We announce new promotions on our Instagram page."
+  },
+  {
+   "q": "Is there special pricing for salons and barbershops?",
+   "a": "Yes. We offer an extra discount on wholesale orders (for example, 12 hair colors, or a box of wax or cologne). Buy 8 combs and get a comb stand free. Message us for details."
+  },
+  {
+   "q": "Which developer should I use with Nouvelle hair color?",
+   "a": "Nouvelle Hair Color is mixed at a 1:1 ratio. Choose 3% (10 vol) developer for tone-on-tone coloring, 6% (20 vol) for gray coverage and 1 level of lift, and 9–12% (30–40 vol) for 2–3 levels of lift."
+  },
+  {
+   "q": "How long do Kera Sublime straightening results last?",
+   "a": "Kera Sublime is a semi-permanent smoothing cream. Depending on hair type and application technique, the result lasts several weeks and holds through dozens of washes. To prolong the result, use the Kera Sublime shampoo, mask and oil."
+  },
+  {
+   "q": "Do you have scissors for left-handed users?",
+   "a": "Yes — the Razorline AK23L is made specifically for left-handed stylists. All Razorline scissors are made of stainless Japanese steel."
+  },
+  {
+   "q": "Can I return or exchange a product?",
+   "a": "Unopened products with undamaged packaging can be exchanged or returned within 14 days. For hygiene reasons, opened cosmetic products cannot be returned; in case of a manufacturing defect, we replace them immediately."
+  },
+  {
+   "q": "Which wax is right for my hair?",
+   "a": "For a glossy, “wet” look, choose Aqua waxes (Red, Blue, Cobra, Olive, etc.); for a natural matte finish, the Matte range (Green, Argan, Keratin, Matte White/Black); for texture and creative styles, Creative Fiber or Spider wax."
+  },
+  {
+   "q": "Can I pick up products from the store myself?",
+   "a": "Of course. Confirm your order in advance via WhatsApp or by phone, and we will have it ready for you."
+  }
+ ]
+}
