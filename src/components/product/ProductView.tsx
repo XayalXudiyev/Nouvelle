@@ -130,7 +130,7 @@ export default function ProductView({ product: raw }: { product: Product }) {
         {/* qalereya */}
         <div className="min-w-0 lg:sticky lg:top-24 lg:self-start">
           <div className="relative overflow-hidden rounded-[2rem] sm:rounded-[2.5rem]" style={{ background: product.tint }}>
-            <div aria-hidden className="absolute -top-1/4 left-1/2 aspect-square w-[110%] -translate-x-1/2 rounded-full bg-white/60 blur-3xl" />
+            <div aria-hidden className="glow absolute -top-1/4 left-1/2 aspect-square w-[110%] -translate-x-1/2" style={{ ["--glow" as string]: "rgb(255 255 255 / 0.6)", ["--glow-scale" as string]: 1.2 }} />
             <Swiper
               modules={[Thumbs, A11y, Keyboard]}
               thumbs={{ swiper: thumbs && !thumbs.destroyed ? thumbs : null }}

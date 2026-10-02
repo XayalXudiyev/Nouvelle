@@ -37,7 +37,7 @@ export default function KeraSpotlight() {
 
   return (
     <section ref={ref} className="relative overflow-hidden bg-blush py-20 sm:py-28">
-      <div aria-hidden className="pointer-events-none absolute -top-32 right-0 size-[40rem] rounded-full bg-white/50 blur-[120px]" />
+      <div aria-hidden className="glow pointer-events-none absolute -top-32 right-0 size-[40rem]" style={{ ["--glow" as string]: "rgb(255 255 255 / 0.5)" }} />
       <div className="container-x relative grid items-center gap-16 lg:grid-cols-2 lg:gap-20">
         {/* vizual */}
         <div className="relative mx-auto w-full max-w-[460px]">
@@ -87,7 +87,7 @@ export default function KeraSpotlight() {
           <ul className="mt-8 grid gap-3 sm:grid-cols-2">
             {FEATURES.map(({ Icon, t }, i) => (
               <Reveal key={t} delay={i * 0.08} y={20}>
-                <li className="flex h-full items-center gap-3 rounded-2xl bg-white/60 p-4 text-sm font-medium backdrop-blur">
+                <li className="flex h-full items-center gap-3 rounded-2xl bg-white/70 p-4 text-sm font-medium">
                   <span className="grid size-10 shrink-0 place-items-center rounded-full bg-rose/10 text-rose">
                     <Icon className="size-5" />
                   </span>
@@ -125,7 +125,7 @@ export default function KeraSpotlight() {
           <div className="mt-4 grid grid-cols-3 gap-3">
             {line.map((p, i) => (
               <Reveal key={p.slug} delay={0.3 + i * 0.08} y={20}>
-                <Link href={href(`/mehsullar/${p.slug}/`)} className="group block rounded-2xl bg-white/60 p-3 text-center backdrop-blur transition-colors hover:bg-white">
+                <Link href={href(`/mehsullar/${p.slug}/`)} className="group block rounded-2xl bg-white/70 p-3 text-center transition-colors hover:bg-white">
                   <span className="relative mx-auto block h-24 sm:h-28">
                     <Image src={p.image} alt={product(p).name} fill sizes="120px" className="object-contain transition-transform duration-700 ease-out-expo group-hover:-translate-y-1 group-hover:scale-105" />
                   </span>

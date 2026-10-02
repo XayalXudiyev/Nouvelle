@@ -19,7 +19,14 @@ export default function SmoothScroll() {
 
   useEffect(() => {
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
-    lenis = new Lenis({ lerp: 0.1, wheelMultiplier: 1, touchMultiplier: 1.4 });
+    // Telefonda native scroll həm daha axıcıdır, həm də hər kadr işləyən rAF dövrəsi olmur
+    if (window.matchMedia("(hover: none), (pointer: coarse)").matches) return;
+    lenis = new Lenis({ lerp: 0.1, wheelMultiplier: 1 });
+    // giriş ekranı açıq olanda scroll gözləyir (Loader.tsx)
+    if (document.documentElement.classList.contains("is-loading")) {
+      lenis.stop();
+      window.addEventListener("nv:loaded", () => lenis?.start(), { once: true });
+    }
     let raf = 0;
     const loop = (t: number) => {
       lenis?.raf(t);

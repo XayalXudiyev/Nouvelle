@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { useLang } from "@/lib/i18n/context";
 import { SITE } from "@/lib/site";
@@ -15,8 +16,16 @@ const COLS = [
 
 export default function Lookbook() {
   const { t } = useLang();
+  const ref = useRef<HTMLElement>(null);
+  // ekrandan kənarda 40 şəkillik sütunları hərəkət etdirməyə ehtiyac yoxdur
+  const [inView, setInView] = useState(false);
+  useEffect(() => {
+    const io = new IntersectionObserver(([e]) => setInView(e.isIntersecting), { rootMargin: "200px 0px" });
+    if (ref.current) io.observe(ref.current);
+    return () => io.disconnect();
+  }, []);
   return (
-    <section className="relative overflow-hidden bg-ink py-20 text-ivory sm:py-28">
+    <section ref={ref} className="relative overflow-hidden bg-ink py-20 text-ivory sm:py-28">
       <div className="container-x relative z-10 mb-12 text-center">
         <SectionHeading align="center" light eyebrow={t.lookbook.eyebrow} title={t.lookbook.title} text={t.lookbook.text} />
       </div>
@@ -26,7 +35,7 @@ export default function Lookbook() {
             <div key={ci} className={`relative overflow-hidden ${ci === 2 ? "hidden sm:block" : ""} ${ci === 3 ? "hidden lg:block" : ""}`}>
               <div
                 className="flex flex-col gap-3 sm:gap-4"
-                style={{ animation: `lookbook ${38 + ci * 6}s linear infinite`, animationDirection: ci % 2 ? "reverse" : "normal" }}
+                style={{ animation: `lookbook ${38 + ci * 6}s linear infinite`, animationDirection: ci % 2 ? "reverse" : "normal", animationPlayState: inView ? "running" : "paused" }}
               >
                 {[...col, ...col].map((src, i) => (
                   <div key={i} className="group relative aspect-[3/4] overflow-hidden rounded-2xl sm:rounded-3xl" aria-hidden={i >= col.length}>

@@ -30,7 +30,7 @@ export default function ProductCard({ product: raw, priority = false, className 
         <Link href={href} className="absolute inset-0" aria-label={product.name}>
           <span
             aria-hidden
-            className="pointer-events-none absolute -top-1/4 left-1/2 aspect-square w-[120%] -translate-x-1/2 rounded-full opacity-70 blur-2xl transition-transform duration-1000 ease-out-expo group-hover:scale-110"
+            className="pointer-events-none absolute -top-1/4 left-1/2 aspect-square w-[120%] -translate-x-1/2 rounded-full opacity-70 transition-transform duration-1000 ease-out-expo group-hover:scale-110"
             style={{ background: "radial-gradient(closest-side, rgba(255,255,255,.85), transparent)" }}
           />
           <Image
@@ -57,7 +57,7 @@ export default function ProductCard({ product: raw, priority = false, className 
             </span>
           ) : null}
           {badges.map((b) => (
-            <span key={b} className="rounded-full bg-white/85 px-2.5 py-1 text-[0.62rem] font-semibold tracking-wide text-ink uppercase backdrop-blur">
+            <span key={b} className="rounded-full bg-white/85 px-2.5 py-1 text-[0.62rem] font-semibold tracking-wide text-ink uppercase">
               {t.badge[b]}
             </span>
           ))}

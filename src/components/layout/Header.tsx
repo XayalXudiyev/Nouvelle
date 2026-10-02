@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Menu, Search, ShoppingBag, ChevronDown } from "lucide-react";
 import Logo from "@/components/ui/Logo";
 import { useLang } from "@/lib/i18n/context";
@@ -97,6 +97,7 @@ export default function Header() {
   const NAV = useNav();
   const { scrollY } = useScroll();
   const [hidden, setHidden] = useState(false);
+  const hiddenRef = useRef<boolean | null>(null);
   const [scrolled, setScrolled] = useState(false);
   const [menu, setMenu] = useState(false);
   const [search, setSearch] = useState(false);
@@ -110,8 +111,12 @@ export default function Header() {
     setScrolled(y > 40);
     const hide = y > 300 && y > prev && !mega;
     setHidden(hide);
-    // sticky elementlər (məs. kataloq filtri) header-in vəziyyətinə uyğunlaşır
-    document.documentElement.style.setProperty("--header-offset", hide ? "0.75rem" : "5.5rem");
+    // sticky elementlər (məs. kataloq filtri) header-in vəziyyətinə uyğunlaşır.
+    // Yalnız dəyişəndə yazılır — <html>-ə hər scroll hadisəsində yazmaq bütün səhifənin stilini yenidən hesablatdırır.
+    if (hide !== hiddenRef.current) {
+      hiddenRef.current = hide;
+      document.documentElement.style.setProperty("--header-offset", hide ? "0.75rem" : "5.5rem");
+    }
   });
 
   useEffect(() => {

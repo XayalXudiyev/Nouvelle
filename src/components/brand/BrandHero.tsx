@@ -29,7 +29,7 @@ export default function BrandHero({ slug }: { slug: BrandSlug }) {
 
   return (
     <section ref={ref} className={cn("relative overflow-hidden", dark ? "bg-ink text-ivory" : "text-ink")} style={dark ? undefined : { background: `${b.color}22` }}>
-      <div aria-hidden className="pointer-events-none absolute -top-40 right-0 size-[40rem] rounded-full blur-[140px]" style={{ background: `${b.color}55` }} />
+      <div aria-hidden className="glow pointer-events-none absolute -top-40 right-0 size-[40rem]" style={{ ["--glow" as string]: `${b.color}55` }} />
       <div className="container-x relative grid min-h-[78svh] items-center gap-10 py-14 lg:grid-cols-2">
         <div>
           <nav aria-label="Breadcrumb" className={cn("mb-8 flex items-center gap-1.5 text-xs", dark ? "text-white/50" : "text-muted")}>

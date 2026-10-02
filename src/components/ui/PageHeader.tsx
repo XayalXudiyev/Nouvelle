@@ -20,8 +20,8 @@ export default function PageHeader({
   const { t, href } = useLang();
   return (
     <header className={`relative overflow-hidden pt-8 sm:pt-12 ${title ? "pb-12 sm:pb-16" : "pb-6"}`}>
-      <div aria-hidden className="pointer-events-none absolute -top-32 -left-24 size-[30rem] rounded-full bg-blush/70 blur-[110px]" />
-      <div aria-hidden className="pointer-events-none absolute -top-20 right-0 size-[24rem] rounded-full bg-[#ece6fb] blur-[110px]" />
+      <div aria-hidden className="glow pointer-events-none absolute -top-32 -left-24 size-[30rem]" style={{ ["--glow" as string]: "rgb(244 217 220 / 0.7)" }} />
+      <div aria-hidden className="glow pointer-events-none absolute -top-20 right-0 size-[24rem]" style={{ ["--glow" as string]: "#ece6fb" }} />
       <div className="container-x relative">
         <nav aria-label="Breadcrumb" className="mb-6 flex min-w-0 flex-wrap items-center gap-1.5 text-xs text-muted">
           <Link href={href("/")} className="hover:text-ink">

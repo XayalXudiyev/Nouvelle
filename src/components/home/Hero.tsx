@@ -48,14 +48,16 @@ export default function Hero() {
   const { t, href } = useLang();
 
   // 3D səhnə (three.js ~1 MB) səhifə açıldıqdan sonra, brauzer boş olanda yüklənir.
-  // Data qənaəti və ya azaldılmış hərəkət rejimində ümumiyyətlə yüklənmir.
+  // Telefon/planşetdə, data qənaəti və ya azaldılmış hərəkət rejimində ümumiyyətlə yüklənmir —
+  // WebGL + shader kompilyasiyası mobil GPU-da scroll-u dondururdu, statik kompozisiya kifayətdir.
   useEffect(() => {
     const nav = navigator as Navigator & { connection?: { saveData?: boolean } };
     if (nav.connection?.saveData || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (!window.matchMedia("(min-width: 1024px) and (hover: hover) and (pointer: fine)").matches) return;
     // köhnə Safari-də requestIdleCallback yoxdur
     const ric = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
     const idle = (cb: () => void) => (ric ? ric(cb, { timeout: 2500 }) : setTimeout(cb, 1));
-    const id = window.setTimeout(() => idle(() => setLoad3d(true)), window.innerWidth < 768 ? 1200 : 150);
+    const id = window.setTimeout(() => idle(() => setLoad3d(true)), 150);
     return () => window.clearTimeout(id);
   }, []);
   const h = t.hero;
@@ -64,9 +66,9 @@ export default function Hero() {
     <section className="relative -mt-[4.5rem] overflow-hidden pt-[4.5rem] sm:-mt-[4.75rem] sm:pt-[4.75rem] lg:-mt-[5rem] lg:pt-[5rem]">
       {/* fon */}
       <div aria-hidden className="pointer-events-none absolute inset-0">
-        <div className="absolute -top-40 -left-40 size-[38rem] rounded-full bg-blush/70 blur-[120px]" />
-        <div className="absolute top-1/3 -right-40 size-[34rem] rounded-full bg-[#e9e2fb] blur-[120px]" />
-        <div className="absolute bottom-0 left-1/3 size-[24rem] rounded-full bg-gold-2/30 blur-[100px]" />
+        <div className="glow absolute -top-40 -left-40 size-[38rem]" style={{ ["--glow" as string]: "rgb(244 217 220 / 0.7)" }} />
+        <div className="glow absolute top-1/3 -right-40 size-[34rem]" style={{ ["--glow" as string]: "#e9e2fb" }} />
+        <div className="glow absolute bottom-0 left-1/3 size-[24rem]" style={{ ["--glow" as string]: "rgb(217 189 140 / 0.3)" }} />
       </div>
 
       <div className="container-x relative grid min-h-[calc(100svh-5.5rem)] items-center gap-6 pb-10 lg:grid-cols-[1.05fr_1fr] lg:gap-4 lg:pb-16">
@@ -133,7 +135,7 @@ export default function Hero() {
             style={{ originY: 1 }}
             className="absolute bottom-0 left-1/2 h-[92%] w-[min(78%,520px)] -translate-x-1/2 rounded-t-full bg-gradient-to-b from-white/90 via-blush/60 to-blush-2/40 shadow-[inset_0_2px_30px_rgba(255,255,255,0.9)]"
           />
-          <div aria-hidden className="absolute bottom-0 left-1/2 h-10 w-[min(90%,600px)] -translate-x-1/2 rounded-[100%] bg-ink/10 blur-xl" />
+          <div aria-hidden className="glow absolute bottom-0 left-1/2 h-10 w-[min(90%,600px)] -translate-x-1/2" style={{ ["--glow" as string]: "rgb(21 18 20 / 0.12)", ["--glow-scale" as string]: 1.3 }} />
 
           {!ready && <StaticComposition />}
           <motion.div className="absolute inset-0" initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ duration: 1.2 }}>

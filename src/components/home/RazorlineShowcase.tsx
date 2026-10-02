@@ -26,7 +26,7 @@ function ScissorCard({ p: raw, i }: { p: Product; i: number }) {
       <span aria-hidden className="pointer-events-none absolute top-6 -right-4 font-display text-[7.5rem] leading-none font-semibold text-white/[0.04] [writing-mode:vertical-rl]">
         {p.code}
       </span>
-      <span aria-hidden className="absolute top-1/3 left-1/2 size-64 -translate-x-1/2 -translate-y-1/2 rounded-full bg-gold/25 blur-3xl transition-all duration-700 group-hover:bg-gold/40" />
+      <span aria-hidden className="glow absolute top-1/3 left-1/2 size-64 -translate-x-1/2 -translate-y-1/2 opacity-60 transition-opacity duration-700 group-hover:opacity-100" style={{ ["--glow" as string]: "rgb(184 147 90 / 0.4)" }} />
       <div className="flex items-center justify-between p-6 pb-0">
         <span className="font-display text-sm text-white/40 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
         <span className="rounded-full bg-rose px-2.5 py-1 text-[0.7rem] font-bold text-white">−{p.discount}%</span>

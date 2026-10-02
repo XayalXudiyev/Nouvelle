@@ -8,6 +8,7 @@ import Footer from "./Footer";
 import CartDrawer from "./CartDrawer";
 import FloatingContact from "./FloatingContact";
 import SmoothScroll from "./SmoothScroll";
+import Loader from "./Loader";
 import { ManagerCardModal } from "@/components/manager/ManagerCard";
 
 export const rootMetadata: Metadata = {
@@ -24,8 +25,10 @@ export const rootViewport: Viewport = {
 
 export default function RootShell({ lang, children }: { lang: Lang; children: React.ReactNode }) {
   return (
-    <html lang={lang} className={`${display.variable} ${sans.variable}`}>
+    // Loader skripti `<html>`-ə hidrasiyadan əvvəl sinif əlavə edir
+    <html lang={lang} className={`${display.variable} ${sans.variable}`} suppressHydrationWarning>
       <body className="min-h-dvh">
+        <Loader />
         <LangProvider lang={lang}>
           <SmoothScroll />
           <Header />
