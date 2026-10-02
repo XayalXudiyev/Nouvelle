@@ -16,12 +16,12 @@ type Item = {
 };
 
 const ITEMS: Item[] = [
-  { url: "/img/hq/kera-cream.webp", pos: [-0.5, 0.05, 1.0], h: 2.3, ratio: 231 / 614, rot: 0.06, speed: 1.4, mobile: true },
-  { url: "/img/hq/wax-red.webp", pos: [0.85, -0.8, 1.25], h: 1.3, ratio: 585 / 823, rot: -0.1, speed: 1.8, mobile: true },
-  { url: "/img/hq/cck006.webp", pos: [1.0, 0.95, 0.35], h: 1.45, ratio: 758 / 900, rot: -0.35, speed: 1.2, mobile: true },
-  { url: "/img/hq/curl-spray.webp", pos: [-1.45, -0.85, 0.2], h: 1.3, ratio: 217 / 799, rot: 0.18, speed: 2 },
+  { url: "/img/hq/kera-cream.webp", pos: [-0.5, 0.05, 1.1], h: 2.3, ratio: 280 / 889, rot: 0.06, speed: 1.4, mobile: true },
+  { url: "/img/hq/wax-red.webp", pos: [0.85, -0.8, 1.35], h: 1.3, ratio: 585 / 823, rot: -0.1, speed: 1.8, mobile: true },
+  { url: "/img/hq/cck006.webp", pos: [1.05, 0.95, 0.9], h: 1.45, ratio: 758 / 900, rot: -0.35, speed: 1.2, mobile: true },
+  { url: "/img/hq/curl-spray.webp", pos: [-1.3, -0.85, 0.75], h: 1.3, ratio: 217 / 799, rot: 0.18, speed: 2 },
   { url: "/img/hq/wax-blue.webp", pos: [-1.3, 1.2, -0.5], h: 0.9, ratio: 580 / 826, rot: 0.2, speed: 2.2 },
-  { url: "/img/hq/kera-oil.webp", pos: [1.6, -0.05, -0.5], h: 0.95, ratio: 329 / 811, rot: -0.12, speed: 1.6 },
+  { url: "/img/hq/kera-oil.webp", pos: [1.4, -0.05, 0.7], h: 0.95, ratio: 329 / 811, rot: -0.12, speed: 1.6 },
 ];
 
 // Siçan mövqeyi bütün pəncərə üzrə izlənir (canvas üzərində olmasa da)
@@ -54,7 +54,7 @@ function Blob() {
     mesh.current.rotation.z = state.clock.elapsedTime * 0.08;
   });
   return (
-    <mesh ref={mesh} position={[0, 0.1, -0.6]} scale={1.55}>
+    <mesh ref={mesh} position={[0, 0.1, -1.8]} scale={1.75}>
       <icosahedronGeometry args={[1, 48]} />
       <MeshDistortMaterial color="#f1bcc6" roughness={0.12} metalness={0.32} distort={0.38} speed={1.6} envMapIntensity={1.4} />
     </mesh>

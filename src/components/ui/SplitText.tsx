@@ -51,9 +51,32 @@ export default function SplitText({
   animateOnMount = false,
 }: Props) {
   const lines = tokenize(text);
-  const trigger = animateOnMount
-    ? { animate: "show" }
-    : { whileInView: "show", viewport: { once: true, margin: "0px 0px -10% 0px" } };
+
+  // Səhifə açılan kimi görünən başlıqlar üçün CSS animasiyası — JS gözləmir
+  if (animateOnMount) {
+    return (
+      <Tag className={className} aria-label={text.replace(/\*/g, "").replace(/\n/g, " ")}>
+        <span className="block" aria-hidden>
+          {lines.map((row, li) => (
+            <span key={li} className="block">
+              {row.map((t, wi) => (
+                <Fragment key={wi}>
+                  <span className="inline-block overflow-hidden pb-[0.14em] -mb-[0.14em] align-bottom">
+                    <span className={`anim-rise ${t.accent ? accentClass : ""}`} style={{ animationDelay: `${delay + t.index * stagger}s` }}>
+                      {t.word}
+                    </span>
+                  </span>
+                  {wi < row.length - 1 && " "}
+                </Fragment>
+              ))}
+            </span>
+          ))}
+        </span>
+      </Tag>
+    );
+  }
+
+  const trigger = { whileInView: "show", viewport: { once: true, margin: "0px 0px -10% 0px" } };
 
   return (
     <Tag className={className} aria-label={text.replace(/\*/g, "").replace(/\n/g, " ")}>

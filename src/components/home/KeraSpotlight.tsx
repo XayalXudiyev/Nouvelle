@@ -60,7 +60,7 @@ export default function KeraSpotlight() {
           </motion.div>
 
           <motion.div style={{ y: yBottle, rotate: rot }} className="absolute -right-6 -bottom-10 w-[34%] drop-shadow-[0_30px_30px_rgba(80,20,35,0.35)] sm:-right-16">
-            <Image src="/img/hq/kera-cream.webp" alt={hero.name} width={231} height={614} className="h-auto w-full" />
+            <Image src="/img/hq/kera-cream.webp" alt={hero.name} width={280} height={889} className="h-auto w-full" />
           </motion.div>
 
           {INGREDIENTS.map((g) => (

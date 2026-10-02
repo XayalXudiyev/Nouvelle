@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "motion/react";
-import { Component, useState, type ReactNode } from "react";
+import { Component, useEffect, useState, type ReactNode } from "react";
 import { ArrowRight, BadgePercent } from "lucide-react";
 import SplitText from "@/components/ui/SplitText";
 import Magnetic from "@/components/ui/Magnetic";
@@ -32,8 +32,8 @@ function StaticComposition() {
   return (
     <div className="absolute inset-0 flex items-center justify-center">
       <div className="relative h-[70%] w-[70%]">
-        <Image src="/img/hq/kera-cream.webp" alt="" width={231} height={614} priority className="absolute top-[6%] left-[22%] h-[82%] w-auto drop-shadow-2xl" />
-        <Image src="/img/hq/wax-red.webp" alt="" width={585} height={823} priority className="absolute right-[8%] bottom-[2%] h-[44%] w-auto drop-shadow-2xl" />
+        <Image src="/img/hq/kera-cream.webp" alt="" width={280} height={889} priority className="absolute top-[6%] left-[22%] h-[82%] w-auto animate-[float_6s_ease-in-out_infinite] drop-shadow-2xl" />
+        <Image src="/img/hq/wax-red.webp" alt="" width={585} height={823} priority className="absolute right-[8%] bottom-[2%] h-[44%] w-auto animate-[float_7s_ease-in-out_infinite] drop-shadow-2xl [animation-delay:1s]" />
         <Image src="/img/hq/cck006.webp" alt="" width={758} height={900} priority className="absolute top-0 right-[4%] h-[46%] w-auto rotate-[-18deg] drop-shadow-2xl" />
       </div>
     </div>
@@ -44,7 +44,20 @@ const kera = PRODUCTS.find((p) => p.slug === "nouvelle-kera-sublime-hero-cream")
 
 export default function Hero() {
   const [ready, setReady] = useState(false);
+  const [load3d, setLoad3d] = useState(false);
   const { t, href } = useLang();
+
+  // 3D səhnə (three.js ~1 MB) səhifə açıldıqdan sonra, brauzer boş olanda yüklənir.
+  // Data qənaəti və ya azaldılmış hərəkət rejimində ümumiyyətlə yüklənmir.
+  useEffect(() => {
+    const nav = navigator as Navigator & { connection?: { saveData?: boolean } };
+    if (nav.connection?.saveData || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    // köhnə Safari-də requestIdleCallback yoxdur
+    const ric = (window as Window & { requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number }).requestIdleCallback;
+    const idle = (cb: () => void) => (ric ? ric(cb, { timeout: 2500 }) : setTimeout(cb, 1));
+    const id = window.setTimeout(() => idle(() => setLoad3d(true)), window.innerWidth < 768 ? 1200 : 150);
+    return () => window.clearTimeout(id);
+  }, []);
   const h = t.hero;
 
   return (
@@ -58,15 +71,12 @@ export default function Hero() {
 
       <div className="container-x relative grid min-h-[calc(100svh-5.5rem)] items-center gap-6 pb-10 lg:grid-cols-[1.05fr_1fr] lg:gap-4 lg:pb-16">
         <div className="relative z-10 pt-8 lg:pt-0">
-          <motion.p
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease }}
-            className="mb-6 inline-flex items-center gap-2.5 rounded-full border border-white/80 bg-white/60 py-1.5 pr-4 pl-1.5 text-xs font-semibold backdrop-blur"
+          <p
+            className="anim-fadeup mb-6 inline-flex items-center gap-2.5 rounded-full border border-white/80 bg-white/60 py-1.5 pr-4 pl-1.5 text-xs font-semibold backdrop-blur"
           >
             <span className="rounded-full bg-ink px-2.5 py-1 text-[0.65rem] tracking-wider text-ivory">{h.pillTag}</span>
             {h.pill}
-          </motion.p>
+          </p>
 
           <SplitText
             as="h1"
@@ -76,21 +86,14 @@ export default function Hero() {
             className="font-display text-[min(3.6rem,13vw)] leading-[0.88] font-medium tracking-tight [overflow-wrap:anywhere] sm:text-[5.5rem] lg:text-[6.4rem] xl:text-[7.4rem]"
           />
 
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.6, ease }}
-            className="mt-6 max-w-md text-base leading-relaxed text-muted sm:text-lg"
+          <p
+            style={{ animationDelay: "0.5s" }}
+            className="anim-fadeup mt-6 max-w-md text-base leading-relaxed text-muted sm:text-lg"
           >
             {h.text}
-          </motion.p>
+          </p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, delay: 0.75, ease }}
-            className="mt-8 flex flex-wrap gap-3"
-          >
+          <div style={{ animationDelay: "0.65s" }} className="anim-fadeup mt-8 flex flex-wrap gap-3">
             <Magnetic>
               <Link href={href("/mehsullar/")} className="btn btn-primary">
                 {h.cta} <ArrowRight className="size-4" />
@@ -101,13 +104,11 @@ export default function Hero() {
                 <BadgePercent className="size-4 text-rose" /> {h.deals}
               </Link>
             </Magnetic>
-          </motion.div>
+          </div>
 
-          <motion.dl
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 1 }}
-            className="mt-10 grid max-w-md grid-cols-3 divide-x divide-line border-t border-line pt-6"
+          <dl
+            style={{ animationDelay: "0.85s" }}
+            className="anim-fadeup mt-10 grid max-w-md grid-cols-3 divide-x divide-line border-t border-line pt-6"
           >
             {[
               ["6", h.stats[0]],
@@ -119,7 +120,7 @@ export default function Hero() {
                 <dd className="text-xs tracking-wide text-muted uppercase">{l}</dd>
               </div>
             ))}
-          </motion.dl>
+          </dl>
         </div>
 
         {/* 3D səhnə */}
@@ -136,9 +137,11 @@ export default function Hero() {
 
           {!ready && <StaticComposition />}
           <motion.div className="absolute inset-0" initial={{ opacity: 0 }} animate={{ opacity: ready ? 1 : 0 }} transition={{ duration: 1.2 }}>
-            <SceneBoundary>
-              <HeroScene onReady={() => setReady(true)} />
-            </SceneBoundary>
+            {load3d && (
+              <SceneBoundary>
+                <HeroScene onReady={() => setReady(true)} />
+              </SceneBoundary>
+            )}
           </motion.div>
 
           {/* üzən şüşə kartlar */}
@@ -182,9 +185,9 @@ export default function Hero() {
           {/* fırlanan dairəvi yazı */}
           <motion.div
             initial={{ opacity: 0, scale: 0.6 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1, delay: 1.5, ease }}
-            className="absolute bottom-[4%] left-[3%] hidden size-28 sm:block"
+            animate={{ opacity: ready ? 0 : 1, scale: ready ? 0.6 : 1 }}
+            transition={{ duration: 1, delay: ready ? 0 : 1.5, ease }}
+            className="pointer-events-none absolute bottom-[4%] left-[3%] hidden size-28 sm:block"
           >
             <svg viewBox="0 0 100 100" className="size-full animate-spin-slow">
               <defs>

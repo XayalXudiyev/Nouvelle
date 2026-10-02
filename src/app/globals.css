@@ -253,6 +253,33 @@ html.lenis body {
     transform: translateY(-10px);
   }
 }
+/* JS yüklənmədən də işləyən giriş animasiyaları (hero və səhifə başlıqları) */
+@keyframes rise {
+  from {
+    transform: translateY(115%) rotate(4deg);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes fadeup {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.anim-rise {
+  display: inline-block;
+  animation: rise 1.1s var(--ease-out-expo) both;
+}
+.anim-fadeup {
+  animation: fadeup 1s var(--ease-out-expo) both;
+}
+
 @keyframes lookbook {
   from {
     transform: translate3d(0, 0, 0);
